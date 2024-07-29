@@ -1,2 +1,2 @@
 # PROJECTE-Delinq-ncia-i-Turisme
-PROJECTE Delinqüència, Turisme i MENA's
+PROJECTE Delinquencia, Turisme i MENA's
