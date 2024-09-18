@@ -20,7 +20,3 @@ DADES:
 * Noves arribades d'infants i joves migrats
   * https:// 
 
-
-DASHBOARD:
-
-![image](https://github.com/user-attachments/assets/3eef0b50-1de7-43ab-9a6e-29257150a172)
