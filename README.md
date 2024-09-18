@@ -18,5 +18,12 @@ DADES:
 * Fets penals
   * https://analisi.transparenciacatalunya.cat/Seguretat/Fets-penals-coneguts-fets-coneguts-resolts-i-deten/qnyt-emjc/explore
 * Noves arribades d'infants i joves migrats
-  * https:// 
+  * https://
+ 
+PRIMERES CONCLUSIONS:
 
+![image](https://github.com/user-attachments/assets/0d49d539-b6c0-41fa-895b-1837f96c930d)
+
+En una primera aproximació a les dades comprovo que l'augment de la delinqüència "al carrer" (Furts, robatoris, delictes sexuals,etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
+
+Amb aquest informació aprofundeixo en la recerca de dades.
