@@ -10,3 +10,12 @@ Quina es la tendéncia dels útlims anys en delinqüència als carrer i juvenil.
 
 METODOLOGIA: Partint de dades públiques de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, examino i valido les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
 
+DADES:
+* Visitans estrangers
+  * https://
+* Estadístiques justícia juvenil
+  * https://
+* Fets penals
+  * https://analisi.transparenciacatalunya.cat/Seguretat/Fets-penals-coneguts-fets-coneguts-resolts-i-deten/qnyt-emjc/explore
+* Noves arribades d'infants i joves migrats
+  * https:// 
