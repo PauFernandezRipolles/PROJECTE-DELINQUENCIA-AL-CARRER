@@ -19,7 +19,7 @@ DADES:
 * Visitans estrangers
   * https://
 * Estadístiques justícia juvenil
-  * https://
+  * https://justicia.gencat.cat/ca/departament/Estadistiques/justicia_juvenil/
 * Fets penals
   * https://analisi.transparenciacatalunya.cat/Seguretat/Fets-penals-coneguts-fets-coneguts-resolts-i-deten/qnyt-emjc/explore
 * Noves arribades d'infants i joves migrats
@@ -29,15 +29,15 @@ PRIMERES CONCLUSIONS:
 
 ![image](https://github.com/user-attachments/assets/0d49d539-b6c0-41fa-895b-1837f96c930d)
 
-En una primera aproximació a les dades comprovo que l'augment de la delinqüència "al carrer" (Furts, robatoris, delictes sexuals,etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
-
+En una primera aproximació a les dades comprovo que l'augment de la delinqüència al carrer (Furts, robatoris, delictes sexuals, alteració de l'ordre públic, etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
 Amb aquest informació aprofundeixo en la recerca de dades. 
 
 Estructuro l'estudi en diferentes dashboards:
 
 * FETS PENALS Vs POBLACIÓ JUSTICIA JUVENIL 
-  * Les dades de població en justicia juvenil están segmentades en població per cada tipologia d'intervenció i en cadascuna d'elles consta el percentatge de cada tipologia       de delicte o falta. Amb aquesta informació creo columnes calculades per obtenir el nombre de delictes i faltes totals comesos per la població en justicia juvenil.
   * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
+    *  S'observa que segueixen una mateixa tendéncia i que hi ha relació entre les dues.
+    *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna calculada on sumo        als registres d'expedients anuals la taxa de reincidents. 
 
 * FETS PENALS Vs ARRIBADES MENAS
   *
