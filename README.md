@@ -26,4 +26,16 @@ PRIMERES CONCLUSIONS:
 
 En una primera aproximació a les dades comprovo que l'augment de la delinqüència "al carrer" (Furts, robatoris, delictes sexuals,etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
 
-Amb aquest informació aprofundeixo en la recerca de dades.
+Amb aquest informació aprofundeixo en la recerca de dades. 
+
+Estructuro l'estudi en diferentes dashboards:
+
+* FETS PENALS Vs POBLACIÓ JUSTICIA JUVENIL 
+  * Les dades de població en justicia juvenil están segmentades en població per cada tipologia d'intervenció i en cadascuna d'elles consta el percentatge de cada tipologia       de delicte o falta. Amb aquesta informació creo columnes calculades per obtenir el nombre de delictes i faltes totals comesos per la població en justicia juvenil.
+  * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
+
+* FETS PENALS Vs ARRIBADES MENAS
+  *
+* POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
+  *
+
