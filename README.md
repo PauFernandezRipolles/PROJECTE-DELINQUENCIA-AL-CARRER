@@ -1,12 +1,17 @@
-# PROJECTE-Delinquencia-i-Turisme
+# PROJECTE DELINQÜÈNCIA AL CARRER
 
-PUNT DE PARTIDA DEL PROJECTE: Analitzar la relació entre delinqüència als carrers, la delinqüència juvenil, el turisme i els menors no acompanyats a Catalunya.
+PUNT DE PARTIDA DEL PROJECTE: Estudiar diverses variables que poden influir en la deliqüéncia al carrer a Catalunya. Contrastar amb dades si te fonament la percepció de la població, fomentada per alguns mitjans, de la relació entre la inseguretat ciutadana i l'arribada de menors no acompanyats.   
 
-OBJECTIUS: Estudiar diverses variables que poden influir en certs tipus de deliqüéncia a Catalunya. Realitzar l'anàlisis i les visualitzacions de les dades per tal de respondre les preguntes clau.
+OBJECTIUS: 
+* Realitzar l'anàlisis i les visualitzacions de les dades per tal de respondre les preguntes clau.
+* Analitzar la relació entre delinqüència als carrers i afluéncia de menors no acompanyats. Aprofundir en la delinqüència juvenil i la seva relació amb el menors no         
+  acompanyats i la inseguretat als carrers. 
+* Buscar dades d'altres variables que puguin tenir relació amb la delinqüència als carres com ara l'afluència de turistes a Catalunya.
 
-PREGUNTES CLAU: Es certa relació entre menors no acompanyats i deliqüéncia que es propaguen desde les xarxes? Que en diuen les dades?
-Quina es la relació entre turisme, deliqüéncia als carrers i afluència de menors no acompanyats? 
-Quina es la tendéncia dels útlims anys en delinqüència als carrer i juvenil.
+PREGUNTES CLAU: 
+* Es certa relació entre menors no acompanyats i deliqüéncia als carrers? Que en diuen les dades?
+* Quina es la relació entre turisme i deliqüéncia als carrers? 
+* Quina es la tendéncia dels útlims anys en delinqüència als carrer i juvenil.
 
 METODOLOGIA: Partint de dades públiques de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, examino i valido les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
 
