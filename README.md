@@ -40,7 +40,16 @@ Estructuro l'estudi en diferentes dashboards:
     *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna calculada on sumo        als registres d'expedients anuals la taxa de reincidents. 
 
 * FETS PENALS Vs ARRIBADES MENAS
-  *
+  * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
+  * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
+    regions dels serveis territorials, per això creo una taula amb MySQL amb les comarques i la importo al model a PowerBi.
+
+    ![image](https://github.com/user-attachments/assets/e138f678-8978-44fc-8220-0b2db701de5d)
+
+    Creo una columna calculada per assignar les comarques corresponents a cada regió de serveis territorials.
+
+    
+
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
   *
 
