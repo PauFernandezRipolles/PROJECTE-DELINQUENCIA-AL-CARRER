@@ -50,6 +50,9 @@ Estructuro l'estudi en diferentes dashboards:
 
     ![image](https://github.com/user-attachments/assets/9b9966d0-b5b6-4e81-84ab-337070638333)
 
+    ![image](https://github.com/user-attachments/assets/35e8195e-c39a-4a8c-a14c-7b410107a9b1)
+
+    ![image](https://github.com/user-attachments/assets/fefa6058-9fea-4b3b-bf58-c319726549bd)
 
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
