@@ -48,7 +48,8 @@ Estructuro l'estudi en diferentes dashboards:
 
     Creo una columna calculada per assignar les comarques corresponents a cada regió de serveis territorials.
 
-    
+    ![image](https://github.com/user-attachments/assets/d7104325-da8d-4020-9f01-596ef6e2024d)
+
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
   *
