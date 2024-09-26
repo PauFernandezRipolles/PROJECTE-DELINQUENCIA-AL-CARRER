@@ -58,6 +58,10 @@ Estructuro l'estudi en diferentes dashboards:
         
         ![image](https://github.com/user-attachments/assets/2d57acce-0947-4575-96af-7f1555a7b569)
         
+      * Creo una columna calculada en DAX per distribuint les arribades a cada regió per comarques.
+ 
+        ![image](https://github.com/user-attachments/assets/35ee060e-3e18-4f21-999a-949d0a6414d9)
+        
       * Creo una columna calculada en DAX per aplicar una ponderació a les diferents comarques en funció de la seva població, extensió i desenvolupament urbà.
         
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
