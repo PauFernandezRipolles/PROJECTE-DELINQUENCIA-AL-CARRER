@@ -38,6 +38,9 @@ Amb aquest informació aprofundeixo en la recerca de dades.
 Estructuro l'estudi en diferentes dashboards:
 
 * FETS PENALS Vs ARRIBADES MENORS DE NO ACOMPANYATS
+
+  ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
+
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
     regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major granularitat d'aquesta dada però            decideixo, deixant de banda el rigor de les dades, obtenir les arribades per comarca:
