@@ -40,6 +40,9 @@ Estructuro l'estudi en diferentes dashboards:
 * FETS PENALS Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
   ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
+  
+  ![image](https://github.com/user-attachments/assets/1805e0f9-059b-4623-8849-3f409bfa7e72)
+
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
