@@ -41,8 +41,6 @@ Estructuro l'estudi en diferentes dashboards:
 
   ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
   
-  ![image](https://github.com/user-attachments/assets/67f2ae64-9bd6-4443-9f00-7887a91f6969)
-
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
@@ -81,4 +79,8 @@ Estructuro l'estudi en diferentes dashboards:
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
   *
+
+DASHBOARD FINAL:
+
+![image](https://github.com/user-attachments/assets/67f2ae64-9bd6-4443-9f00-7887a91f6969)
 
