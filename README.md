@@ -41,7 +41,7 @@ Estructuro l'estudi en diferentes dashboards:
 
   ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
   
-  ![image](https://github.com/user-attachments/assets/1805e0f9-059b-4623-8849-3f409bfa7e72)
+  ![image](https://github.com/user-attachments/assets/67f2ae64-9bd6-4443-9f00-7887a91f6969)
 
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
