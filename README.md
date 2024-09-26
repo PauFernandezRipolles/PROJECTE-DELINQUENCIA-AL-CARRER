@@ -41,28 +41,32 @@ Estructuro l'estudi en diferentes dashboards:
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
     regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major granularitat d'aquesta dada però            decideixo, deixant de banda el rigor de les dades, obtenir les arribades per comarca:
-      * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi. Creo una columna calculada amb DAX d'Id de Regió:
+      * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi.
+        
+        ![image](https://github.com/user-attachments/assets/e138f678-8978-44fc-8220-0b2db701de5d)
+
+      * Creo una columna calculada amb DAX d'Id de Regió:
+        
         ![image](https://github.com/user-attachments/assets/53714233-149b-4606-8b02-ab5762004f57)
-      * Baixo un mapa publicat per Xavier Ginménez amb format .json i l'utilitzo de plantilla per fer una visualització de mapa de formes a Power Bi:
+        
+      * Baixo un mapa publicat per Xavier Ginménez amb format .json i l'utilitzo de plantilla per fer una visualització de mapa de formes a Power Bi.
+        
       * Creo una columna calculada amb DAX per assignar les comarques a cada regió del servei territorial.
+        
         ![image](https://github.com/user-attachments/assets/2d57acce-0947-4575-96af-7f1555a7b569)
+        
       * Creo una columna calculada en DAX per aplicar una ponderació a les diferents comarques en funció de la seva població, extensió i desenvolupament urbà.
+        
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
       
     
 * FETS PENALS Vs POBLACIÓ JUSTICIA JUVENIL 
   * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
     *  S'observa que segueixen una mateixa tendéncia i que hi ha relació entre les dues.
-    *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna calculada on sumo        als registres d'expedients anuals la taxa de reincidents. 
-    ![image](https://github.com/user-attachments/assets/e138f678-8978-44fc-8220-0b2db701de5d)
+    *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna calculada on sumo        als registres d'expedients anuals la taxa de reincidents.
 
-    Creo una columna calculada per assignar les comarques corresponents a cada regió de serveis territorials.
+      ![image](https://github.com/user-attachments/assets/a7f40f23-ef02-4aa6-ac56-8c4b888035f5)
 
-    ![image](https://github.com/user-attachments/assets/9b9966d0-b5b6-4e81-84ab-337070638333)
-
-    ![image](https://github.com/user-attachments/assets/35e8195e-c39a-4a8c-a14c-7b410107a9b1)
-
-    ![image](https://github.com/user-attachments/assets/fefa6058-9fea-4b3b-bf58-c319726549bd)
 
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
