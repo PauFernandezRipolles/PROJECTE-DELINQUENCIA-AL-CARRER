@@ -17,7 +17,7 @@ METODOLOGIA: Partint de dades públiques del portal de transparència de la Gene
 
 DADES:
 * Visitans estrangers
-  * https://
+  * (https://www.idescat.cat/visor/?id=turest&dataset=1&tc=true&tm=factor_ind_factor&td=t.mes,terr.ccaa,mv.mv,tv.tv&tf=t.mes[202409]&cc=true&cm=factor_ind_factor&cd=t.mes,terr.ccaa,mv.mv,tv.tv&cf=t.mes[202409]&filters=temps_24050.202409&filters=territori_emtf_25077.09&rows=n4_emtf_dim_motiu_princ_viatg_25076&columns=n4_emtf_dim_codi_questionari_25072&filters=concept.factor_ind_factor)
 * Estadístiques justícia juvenil
   * https://justicia.gencat.cat/ca/departament/Estadistiques/justicia_juvenil/
 * Fets penals
