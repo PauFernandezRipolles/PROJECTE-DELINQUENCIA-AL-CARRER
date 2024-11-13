@@ -44,7 +44,7 @@ Estructuro l'estudi en diferentes dashboards:
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
-    regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major granularitat d'aquesta dada però            decideixo, deixant de banda el rigor de les dades, obtenir les arribades per comarca:
+    regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major granularitat d'aquesta dada però            decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
       * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi.
         
         ![image](https://github.com/user-attachments/assets/e138f678-8978-44fc-8220-0b2db701de5d)
