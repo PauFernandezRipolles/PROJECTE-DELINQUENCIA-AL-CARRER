@@ -26,6 +26,7 @@ DADES:
   * https://analisi.transparenciacatalunya.cat/Demografia/Noves-arribades-d-infants-i-joves-migrats-sols-a-C/pvrz-iijx/about_data
 * Per la visualització de mapes utilitzo el mapa de catalunya per comarques .json  publicat per Xavier Ginménez
   * https://github.com/sirisacademic/catalonia-cartography/blob/master/shapefiles_catalunya_comarcas.topo.json
+
      
  
 PRIMERES OBSERVACIONS:
@@ -43,9 +44,9 @@ Estructuro l'estudi en diferentes dashboards:
   
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
-  * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només   
-    disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major 
-    granularitat d'aquesta dada però decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
+  * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya.
+    Per fer aquesta útlima variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb 
+    comarques. Tampoc disposo de major granularitat d'aquesta dada però decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
     
       * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi.
         
