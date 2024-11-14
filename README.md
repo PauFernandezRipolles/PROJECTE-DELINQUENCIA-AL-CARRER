@@ -13,7 +13,7 @@ PREGUNTES CLAU:
 * Quina es la relació entre turisme i deliqüéncia als carrers? 
 * Quina es la tendéncia dels últims anys en delinqüència als carrer i juvenil.
 
-METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i valido les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
+METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
 
 DADES:
 * Visitans estrangers
