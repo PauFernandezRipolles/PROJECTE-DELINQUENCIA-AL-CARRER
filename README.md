@@ -13,7 +13,7 @@ PREGUNTES CLAU:
 * Quina es la relació entre turisme i deliqüéncia als carrers? 
 * Quina es la tendéncia dels últims anys en delinqüència als carrer i juvenil.
 
-METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i valido les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
+METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
 
 DADES:
 * Visitans estrangers
@@ -26,9 +26,10 @@ DADES:
   * https://analisi.transparenciacatalunya.cat/Demografia/Noves-arribades-d-infants-i-joves-migrats-sols-a-C/pvrz-iijx/about_data
 * Per la visualització de mapes utilitzo el mapa de catalunya per comarques .json  publicat per Xavier Ginménez
   * https://github.com/sirisacademic/catalonia-cartography/blob/master/shapefiles_catalunya_comarcas.topo.json
+
      
  
-PRIMERES CONCLUSIONS:
+PRIMERES OBSERVACIONS:
 
 ![image](https://github.com/user-attachments/assets/0d49d539-b6c0-41fa-895b-1837f96c930d)
 
@@ -37,14 +38,16 @@ Amb aquest informació aprofundeixo en la recerca de dades.
 
 Estructuro l'estudi en diferentes dashboards:
 
-* FETS PENALS Vs ARRIBADES MENORS DE NO ACOMPANYATS
+* DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
   ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
   
 
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
-  * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya. Per fer aquesta útlima variable només disposo de les     
-    regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb comarques. Tampoc disposo de major granularitat d'aquesta dada però            decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
+  * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya.
+    Per fer aquesta útlima variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb 
+    comarques. Tampoc disposo de major granularitat d'aquesta dada però decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
+    
       * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi.
         
         ![image](https://github.com/user-attachments/assets/e138f678-8978-44fc-8220-0b2db701de5d)
@@ -68,17 +71,28 @@ Estructuro l'estudi en diferentes dashboards:
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
       
     
-* FETS PENALS Vs POBLACIÓ JUSTICIA JUVENIL 
+* DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL 
   * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
     *  S'observa que segueixen una mateixa tendéncia i que hi ha relació entre les dues.
-    *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna calculada on sumo        als registres d'expedients anuals la taxa de reincidents.
+    *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna 
+       calculada on sumo als registres d'expedients anuals totals el nombre de reincidents amb expedients anteriors.
 
-      ![image](https://github.com/user-attachments/assets/a7f40f23-ef02-4aa6-ac56-8c4b888035f5)
+        ![image](https://github.com/user-attachments/assets/a7f40f23-ef02-4aa6-ac56-8c4b888035f5)
 
+    *  Faig una estimació de quin percentatge del total de delictes son comesos per menors estrangers (no necessariament menors migrants no acompanyats). A
+       la base de dades de justicia juvenil, no diposem del detall de quin tipus de delicte cometen els menors. Tampoc de quina edat tenen els que cometen 
+       delictes a la base de dades de fets penals coneguts.
+       Per tant faig una estimació multiplicant el percentatge de delictes comesos per menors del total (que ja es una estimació a l'alça, ja que no tots 
+       els delictes de població juvenil son de les tipologies de delictes al carrer) per el percentatge d'estrangers de la població de justicia juvenil.
 
+        ![image](https://github.com/user-attachments/assets/9c5961b6-c832-478e-a59d-0495a7142763)
+
+       
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
-  *
+* DELICTES AL CARRER Vs TURISME
+
+
 
 DASHBOARD FINAL:
 
