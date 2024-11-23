@@ -123,7 +123,3 @@ Estructuro l'estudi en diferentes dashboards:
         ![image](https://github.com/user-attachments/assets/c1ecb73e-d6b7-40f6-b996-73b06969d209)
 
 
-DASHBOARD FINAL:
-
-![image](https://github.com/user-attachments/assets/67f2ae64-9bd6-4443-9f00-7887a91f6969)
-
