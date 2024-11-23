@@ -14,10 +14,14 @@ PREGUNTES CLAU:
 * Quina es la tendéncia dels últims anys en delinqüència als carrer i juvenil.
 
 METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
+El model no es un model normalitzat típic d'estrella ja que hi ha moltes taules de fets diferents i poques de dimensions. Creo una taula de dimensió temporal (data) i vinculo totes les taules de fets que tenen temporalitat a aquesta. També creo una de dimensió geogràfica (Catalunya Comarques) a la que vinculo les taules de fets amb referències geogràfiques.
+El model resultant es força atípic, amb moltes taules de fets sense conexió entre elles i dues de dimensions:
+
+![image](https://github.com/user-attachments/assets/71265c60-d448-4683-9762-72da669044ec)
+
 
 DADES:
-* Visitans estrangers
-  * https://www.idescat.cat/visor/?id=turest&dataset=1&tc=true&tm=factor_ind_factor&td=t.mes,terr.ccaa,mv.mv,tv.tv&tf=t.mes[202409]&cc=true&cm=factor_ind_factor&cd=t.mes,terr.ccaa,mv.mv,tv.tv&cf=t.mes[202409]&filters=temps_24050.202409&filters=territori_emtf_25077.09&rows=n4_emtf_dim_motiu_princ_viatg_25076&columns=n4_emtf_dim_codi_questionari_25072&filters=concept.factor_ind_factor
+
 * Estadístiques justícia juvenil
   * https://justicia.gencat.cat/ca/departament/Estadistiques/justicia_juvenil/
 * Fets penals
@@ -26,7 +30,11 @@ DADES:
   * https://analisi.transparenciacatalunya.cat/Demografia/Noves-arribades-d-infants-i-joves-migrats-sols-a-C/pvrz-iijx/about_data
 * Per la visualització de mapes utilitzo el mapa de catalunya per comarques .json  publicat per Xavier Ginménez
   * https://github.com/sirisacademic/catalonia-cartography/blob/master/shapefiles_catalunya_comarcas.topo.json
-
+* Població
+  * https://www.idescat.cat/pub/?id=censph&n=16354&geo=prov:08 
+* Visitans estrangers
+  * https://www.idescat.cat/visor/?id=turest&dataset=1&tc=true&tm=factor_ind_factor&td=t.mes,terr.ccaa,mv.mv,tv.tv&tf=t.mes[202409]&cc=true&cm=factor_ind_factor&cd=t.mes,terr.ccaa,mv.mv,tv.tv&cf=t.mes[202409]&filters=temps_24050.202409&filters=territori_emtf_25077.09&rows=n4_emtf_dim_motiu_princ_viatg_25076&columns=n4_emtf_dim_codi_questionari_25072&filters=concept.factor_ind_factor
+  * https://www.idescat.cat/indicadors/?id=aec&n=15518
      
  
 PRIMERES OBSERVACIONS:
@@ -56,7 +64,7 @@ Estructuro l'estudi en diferentes dashboards:
         
         ![image](https://github.com/user-attachments/assets/53714233-149b-4606-8b02-ab5762004f57)
         
-      * Baixo un mapa publicat per Xavier Ginménez amb format .json i l'utilitzo de plantilla per fer una visualització de mapa de formes a Power Bi.
+      * Baixo un mapa publicat per Xavier Giménez amb format .json i l'utilitzo de plantilla per fer una visualització de mapa de formes a Power Bi.
         
       * Creo una columna calculada amb DAX per assignar les comarques a cada regió del servei territorial.
         
@@ -90,8 +98,14 @@ Estructuro l'estudi en diferentes dashboards:
        
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
-* DELICTES AL CARRER Vs TURISME
+  * fsff
+    * hfthhf
 
+
+* DELICTES AL CARRER Vs TURISME
+ * fsff
+    * hfthhf
+        ![image](https://github.com/user-attachments/assets/c1ecb73e-d6b7-40f6-b996-73b06969d209)
 
 
 DASHBOARD FINAL:
