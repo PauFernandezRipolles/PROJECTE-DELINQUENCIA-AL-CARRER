@@ -48,9 +48,10 @@ Estructuro l'estudi en diferentes dashboards:
 
 * DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
-  ![image](https://github.com/user-attachments/assets/5070936a-adde-4e4d-b915-ec2d9ff02900)
-  
 
+  ![image](https://github.com/user-attachments/assets/3d7a074a-db61-4b64-9482-4c61136516f4)
+
+  
   * En un gràfic de línies es veu clarament la manca de relació entre les dues variables.
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya.
     Per fer aquesta útlima variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb 
@@ -79,7 +80,12 @@ Estructuro l'estudi en diferentes dashboards:
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
       
     
-* DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL 
+* DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL
+
+
+  ![image](https://github.com/user-attachments/assets/bc9e7076-21aa-4e76-9945-2a0d06840545)
+
+
   * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
     *  S'observa que segueixen una mateixa tendéncia i que hi ha relació entre les dues.
     *  Per posar context analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna 
@@ -98,13 +104,22 @@ Estructuro l'estudi en diferentes dashboards:
        
 
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
-  * fsff
-    * hfthhf
+
+
+  ![image](https://github.com/user-attachments/assets/6dfd82e7-7d87-4b2a-986e-799fdc76ef14)
+
+
+  * f
+    * h
 
 
 * DELICTES AL CARRER Vs TURISME
- * fsff
-    * hfthhf
+
+
+  
+  
+ * f
+    * h
         ![image](https://github.com/user-attachments/assets/c1ecb73e-d6b7-40f6-b996-73b06969d209)
 
 
