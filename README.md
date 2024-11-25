@@ -138,5 +138,9 @@ Estructuro l'estudi en diferentes dashboards:
 
   ![image](https://github.com/user-attachments/assets/76b117b2-56d7-4bad-8ff5-fe750a3a3125)
 
- * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada Id de Regió Policial li correspongui un grup de comarques i divideixo el nombre de delictes entre les comarques d'una mateixa regió amb una ponderació a les diferents comarques en funció de la seva població, extensió i desenvolupament urbà.      
+ * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada ABP (Àrea Bàsica Policial) li correspongui una comarca. M'ajudo de Chat GPT per fer la columna DAX.
+
+   ![image](https://github.com/user-attachments/assets/aa7fcaa3-918b-4c1c-ad37-ee8ad6a591f3)
+
+
 
