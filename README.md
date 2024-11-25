@@ -125,8 +125,8 @@ Estructuro l'estudi en diferentes dashboards:
 
 * DELICTES AL CARRER Vs TURISME
 
+  ![image](https://github.com/user-attachments/assets/e1a4ba5c-b0a4-466b-996f-d30d17ddcff0)
 
-  
   
  * Començo comparant la serie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
    
