@@ -140,7 +140,7 @@ Estructuro l'estudi en diferentes dashboards:
 
  * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada ABP (Àrea Bàsica Policial) li correspongui una comarca. M'ajudo de Chat GPT per fer la columna DAX.
 
-   ![image](https://github.com/user-attachments/assets/aa7fcaa3-918b-4c1c-ad37-ee8ad6a591f3)
+   ![image](https://github.com/user-attachments/assets/e5a12ea8-9782-4b96-aece-620e50ea5f72)
 
 
 
