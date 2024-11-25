@@ -49,7 +49,8 @@ Estructuro l'estudi en diferentes dashboards:
 * DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
 
-  ![image](https://github.com/user-attachments/assets/3d7a074a-db61-4b64-9482-4c61136516f4)
+  ![image](https://github.com/user-attachments/assets/b46b331b-f488-4009-b388-74c589a52390)
+
 
   
   * En un gràfic de línies, amb series temporals, no s'aprecia una relació directa entre les dues variables.
