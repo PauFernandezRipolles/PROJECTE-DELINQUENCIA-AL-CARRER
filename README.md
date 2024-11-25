@@ -109,8 +109,17 @@ Estructuro l'estudi en diferentes dashboards:
   ![image](https://github.com/user-attachments/assets/6dfd82e7-7d87-4b2a-986e-799fdc76ef14)
 
 
-  * f
-    * h
+  * Comparo l'evolució de la Població Justicia Juvenil amb les Arribades de Menors. No hi ha relació aparent.
+  * Comparo l'evolució de la Població Justicia Juvenil amb la de la població general de 14 a 21. Tampoc hi ha un relació clara.
+  * Comparo el percentatge de la població total amb edats entre 14 i 21 vs el percentatge de delictes comesos per joves de 14 a 21 respecte els totals.
+    Per fer-ho creo aquesta mesura:
+
+    ![image](https://github.com/user-attachments/assets/69920899-c193-430b-86ce-4602933dd19d)
+
+  * Creo una mesura per calcular quin percentatge de delictes sobre el total, son comesos per joves estrangers (no necessàriament menors migrants no acompanyats)
+
+    ![image](https://github.com/user-attachments/assets/3619e42b-f993-4042-be8b-8fa5001a0541)
+
 
 
 * DELICTES AL CARRER Vs TURISME
@@ -118,8 +127,15 @@ Estructuro l'estudi en diferentes dashboards:
 
   
   
- * f
-    * h
-        ![image](https://github.com/user-attachments/assets/c1ecb73e-d6b7-40f6-b996-73b06969d209)
+ * Començo comparant la serie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
+   
+* Per comparar la distribució geogràfica dels delictes i de visites de turistes no disposo de la distribució d'arribades de turistes per comarca. Així que les calculo, en una columna calculada, unint les dades de places turístiques de cada tipus disponibles per comarca i les taxes d'ocupació d'aquestes places per cada tipus del 2022.
 
+  ![image](https://github.com/user-attachments/assets/c1ecb73e-d6b7-40f6-b996-73b06969d209)
+  
+* Per poder obtenir els delictes per comarca creo una columna calculada assignant un Id de Regió Policial a cada regió.
+
+  ![image](https://github.com/user-attachments/assets/76b117b2-56d7-4bad-8ff5-fe750a3a3125)
+
+ * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada Id de Regió Policial li correspongui un grup de comarques i divideixo el nombre de delictes entre les comarques d'una mateixa regió ponderant amb la població de cada comarca.       
 
