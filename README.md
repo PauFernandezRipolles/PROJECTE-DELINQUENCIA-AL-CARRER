@@ -117,6 +117,12 @@ Estructuro l'estudi en diferentes dashboards:
 
     ![image](https://github.com/user-attachments/assets/69920899-c193-430b-86ce-4602933dd19d)
 
+  * Creo una mesura per calcular la proporció que representen el menors no acompanyats respecte la població total de 14 a 18 anys. 
+ 
+    ![image](https://github.com/user-attachments/assets/6d54392b-2401-486e-a9fa-6228f8aa8529)
+
+
+
   * Creo una mesura per calcular quin percentatge de delictes sobre el total, son comesos per joves estrangers (no necessàriament menors migrants no acompanyats)
 
     ![image](https://github.com/user-attachments/assets/3619e42b-f993-4042-be8b-8fa5001a0541)
