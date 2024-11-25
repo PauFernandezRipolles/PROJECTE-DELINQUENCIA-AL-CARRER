@@ -123,12 +123,6 @@ Estructuro l'estudi en diferentes dashboards:
 
 
 
-  * Creo una mesura per calcular quin percentatge de delictes sobre el total, son comesos per joves estrangers (no necessàriament menors migrants no acompanyats)
-
-    ![image](https://github.com/user-attachments/assets/3619e42b-f993-4042-be8b-8fa5001a0541)
-
-
-
 * DELICTES AL CARRER Vs TURISME
 
 
@@ -144,5 +138,5 @@ Estructuro l'estudi en diferentes dashboards:
 
   ![image](https://github.com/user-attachments/assets/76b117b2-56d7-4bad-8ff5-fe750a3a3125)
 
- * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada Id de Regió Policial li correspongui un grup de comarques i divideixo el nombre de delictes entre les comarques d'una mateixa regió ponderant amb la població de cada comarca.       
+ * Creo una altra columna calculada a la taula de dimensions geogràfiques Comarques Catalunya per tal que a cada Id de Regió Policial li correspongui un grup de comarques i divideixo el nombre de delictes entre les comarques d'una mateixa regió amb una ponderació a les diferents comarques en funció de la seva població, extensió i desenvolupament urbà.      
 
