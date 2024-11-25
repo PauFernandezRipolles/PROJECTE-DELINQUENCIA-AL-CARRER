@@ -52,7 +52,8 @@ Estructuro l'estudi en diferentes dashboards:
   ![image](https://github.com/user-attachments/assets/3d7a074a-db61-4b64-9482-4c61136516f4)
 
   
-  * En un gràfic de línies ,amb series temporals, es veu clarament la manca de relació entre les dues variables.
+  * En un gràfic de línies, amb series temporals, no s'aprecia una relació directa entre les dues variables.
+    
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya.
     Per fer aquesta útlima variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb 
     comarques. Tampoc disposo de major granularitat d'aquesta dada però decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
