@@ -17,7 +17,7 @@ METODOLOGIA: Partint de dades públiques del portal de transparència de la Gene
 El model no es un model normalitzat típic d'estrella ja que hi ha moltes taules de fets diferents i poques de dimensions. Creo una taula de dimensió temporal (data) i vinculo totes les taules de fets que tenen temporalitat a aquesta. També creo una de dimensió geogràfica (Catalunya Comarques) a la que vinculo les taules de fets amb referències geogràfiques.
 El model resultant es força atípic, amb moltes taules de fets sense conexió entre elles i dues de dimensions:
 
-![image](https://github.com/user-attachments/assets/71265c60-d448-4683-9762-72da669044ec)
+![image](https://github.com/user-attachments/assets/2d0cdf8f-ff3c-400e-a31c-d850c447e810)
 
 
 DADES:
