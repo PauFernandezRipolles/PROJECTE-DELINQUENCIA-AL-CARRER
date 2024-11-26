@@ -85,7 +85,8 @@ Estructuro l'estudi en diferentes dashboards:
 * DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL
 
 
-  ![image](https://github.com/user-attachments/assets/bc9e7076-21aa-4e76-9945-2a0d06840545)
+  ![image](https://github.com/user-attachments/assets/15060639-45c9-42cd-bd9a-a5566f7a12c8)
+
 
 
   * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
@@ -105,10 +106,11 @@ Estructuro l'estudi en diferentes dashboards:
 
        
 
-* POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES MENAS
+* POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
 
 
-  ![image](https://github.com/user-attachments/assets/6dfd82e7-7d87-4b2a-986e-799fdc76ef14)
+  ![image](https://github.com/user-attachments/assets/c94d07d1-d161-4aea-abaf-2c5ed25620c2)
+
 
 
   * Comparo l'evolució de la Població Justicia Juvenil amb les Arribades de Menors. No hi ha relació aparent.
@@ -126,9 +128,9 @@ Estructuro l'estudi en diferentes dashboards:
 
 * DELICTES AL CARRER Vs TURISME
 
-  ![image](https://github.com/user-attachments/assets/e1a4ba5c-b0a4-466b-996f-d30d17ddcff0)
+  ![image](https://github.com/user-attachments/assets/ba88a207-d999-4720-b96e-c779e9c1b007)
 
-  
+
  * Començo comparant la serie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
    
 * Per comparar la distribució geogràfica dels delictes i de visites de turistes no disposo de la distribució d'arribades de turistes per comarca. Així que les calculo, en una columna calculada, unint les dades de places turístiques de cada tipus disponibles per comarca i les taxes d'ocupació d'aquestes places per cada tipus del 2022.
