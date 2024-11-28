@@ -44,12 +44,13 @@ PRIMERES OBSERVACIONS:
 En una primera aproximació a les dades comprovo que l'augment de la delinqüència al carrer (Furts, robatoris, delictes sexuals, alteració de l'ordre públic, etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
 Amb aquest informació aprofundeixo en la recerca de dades. 
 
-Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica.
+Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàginba de conclusions al final i un link a cada Dashboard per navegar-hi.
 
 * DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
 
-  ![image](https://github.com/user-attachments/assets/b46b331b-f488-4009-b388-74c589a52390)
+  ![image](https://github.com/user-attachments/assets/86b1f9d6-aed7-4eb9-89a7-5adac05abe5e)
+
 
 
   
@@ -85,7 +86,8 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 * DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL
 
 
-  ![image](https://github.com/user-attachments/assets/15060639-45c9-42cd-bd9a-a5566f7a12c8)
+  ![image](https://github.com/user-attachments/assets/ce766c38-93c0-4b48-9fac-e13ce6d5ad5e)
+
 
 
 
@@ -108,7 +110,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 * POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
 
 
-  ![image](https://github.com/user-attachments/assets/c94d07d1-d161-4aea-abaf-2c5ed25620c2)
+  ![image](https://github.com/user-attachments/assets/f6919307-6cbe-4176-9da8-db6d0c447c1f)
 
 
 
@@ -127,7 +129,8 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
 * DELICTES AL CARRER Vs TURISME
 
-  ![image](https://github.com/user-attachments/assets/ba88a207-d999-4720-b96e-c779e9c1b007)
+  ![image](https://github.com/user-attachments/assets/827289f4-ff5d-4bcb-973c-af45e8c3c3f7)
+
 
 
  * Començo comparant la serie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
@@ -148,5 +151,11 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
   S'aprecía coincidencia en les comarques costaneres i les capitals de provincia, terte de Lleida.
   Filtrant la serie temporal per comarques, s'aprecia que les comarques on coincideixen alts index de delinqüència i visitants també hi ha una relació 
   d'estacionalitat a la serie temporal.
-* Elaboro un gràfic de columnes de comrques ordenat per delinqüència on s'aprecia que les comarques on coincideixen alts index de les dues variables, son les que tenen més delinquéncia
+* Elaboro un gràfic de columnes de comarques ordenat per delinqüència on s'aprecia que la relació entre les dues variables.
+
+
+* CONCLUSIONS
+
+   ![image](https://github.com/user-attachments/assets/d171d0d4-7068-4254-9f25-23bd775d61ae)
+
 
