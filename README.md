@@ -39,12 +39,23 @@ DADES:
  
 PRIMERES OBSERVACIONS:
 
-![image](https://github.com/user-attachments/assets/0d49d539-b6c0-41fa-895b-1837f96c930d)
+* ANÀLISI EXPLORATORI
+
+  
+  ![image](https://github.com/user-attachments/assets/0b4297c0-cb32-42af-bafb-8df7d94999f7)
+
 
 En una primera aproximació a les dades comprovo que l'augment de la delinqüència al carrer (Furts, robatoris, delictes sexuals, alteració de l'ordre públic, etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
+
+
+  ![image](https://github.com/user-attachments/assets/9d1b59ef-dbb6-4bf2-815d-62c58715494d)
+
+
+Implemento dos models de regressió lineal amb una visualització de gràfic de dispersió i comprobo estadísticament que delictes i arribades de menors no guarden relació, mentre que delictes i turistes sí.
+
 Amb aquest informació aprofundeixo en la recerca de dades. 
 
-Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàginba de conclusions al final i un link a cada Dashboard per navegar-hi.
+Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàgina de conclusions al final i un link a cada Dashboard per navegar-hi.
 
 * DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
 
