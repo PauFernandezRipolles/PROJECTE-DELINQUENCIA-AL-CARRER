@@ -2,20 +2,26 @@
 
 PUNT DE PARTIDA DEL PROJECTE: Estudiar diverses variables que poden influir en la deliqüéncia al carrer a Catalunya. Contrastar amb dades si te fonament la percepció de part de la població, fomentada per alguns mitjans, de la relació entre la inseguretat ciutadana i l'arribada de menors no acompanyats.   
 
+
 OBJECTIUS: 
 * Realitzar l'anàlisis i les visualitzacions de les dades per tal de respondre les preguntes clau.
 * Analitzar la relació entre delinqüència als carrers i afluéncia de menors no acompanyats. Aprofundir en la delinqüència juvenil i la seva relació amb el menors no         
   acompanyats i la inseguretat als carrers. 
 * Buscar dades d'altres variables que puguin tenir relació amb la delinqüència als carres com ara l'afluència de turistes a Catalunya.
 
+
 PREGUNTES CLAU: 
 * Es certa relació entre menors no acompanyats i deliqüéncia als carrers? Que en diuen les dades?
-* Quina es la relació entre turisme i deliqüéncia als carrers? 
-* Quina es la tendéncia dels últims anys en delinqüència als carrer i juvenil.
+* Quina part del delictes al carrer els cometen joves estrangers?
+* Quina es la tendéncia dels últims anys en delinqüència als carrer i delinqüència juvenil? Guarden relació?
+* Quina es la relació entre turisme i deliqüéncia als carrers?
 
-METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL per després realitzar el modelat i les visualitzacions amb PowerBi.
+
+METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL i Pyhton, per després realitzar el modelat i les visualitzacions amb PowerBi.
+
 El model no es un model normalitzat típic d'estrella ja que hi ha moltes taules de fets diferents i poques de dimensions. Creo una taula de dimensió temporal (data) i vinculo totes les taules de fets que tenen temporalitat a aquesta. També creo una de dimensió geogràfica (Catalunya Comarques) a la que vinculo les taules de fets amb referències geogràfiques.
 El model resultant es força atípic, amb moltes taules de fets sense conexió entre elles i dues de dimensions:
+
 
 ![image](https://github.com/user-attachments/assets/2d0cdf8f-ff3c-400e-a31c-d850c447e810)
 
@@ -53,11 +59,12 @@ En una primera aproximació a les dades comprovo que l'augment de la delinqüèn
 
 Implemento dos models de regressió lineal amb una visualització de gràfic de dispersió i comprobo estadísticament que delictes i arribades de menors no guarden relació, mentre que delictes i turistes sí.
 
-Amb aquest informació aprofundeixo en la recerca de dades. 
+Amb aquest informació aprofundeixo en la recerca i en l'anàlisis de dades. 
 
 Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàgina de conclusions al final i un link a cada Dashboard per navegar-hi.
 
-* DELICTES AL CARRER Vs ARRIBADES MENORS DE NO ACOMPANYATS
+
+* DELICTES AL CARRER I ARRIBADES MENORS DE NO ACOMPANYATS
 
 
   ![image](https://github.com/user-attachments/assets/86b1f9d6-aed7-4eb9-89a7-5adac05abe5e)
@@ -94,7 +101,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
       
     
-* DELICTES AL CARRER Vs POBLACIÓ JUSTICIA JUVENIL
+* DELICTES AL CARRER I POBLACIÓ JUSTICIA JUVENIL
 
 
   ![image](https://github.com/user-attachments/assets/ce766c38-93c0-4b48-9fac-e13ce6d5ad5e)
@@ -118,7 +125,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
        
 
-* POBLACIÓ JUSTICIA JUVENIL Vs ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
+* POBLACIÓ JUSTICIA JUVENIL I ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
 
 
   ![image](https://github.com/user-attachments/assets/f6919307-6cbe-4176-9da8-db6d0c447c1f)
@@ -138,7 +145,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
 
 
-* DELICTES AL CARRER Vs TURISME
+* DELICTES AL CARRER I TURISME
 
   ![image](https://github.com/user-attachments/assets/827289f4-ff5d-4bcb-973c-af45e8c3c3f7)
 
