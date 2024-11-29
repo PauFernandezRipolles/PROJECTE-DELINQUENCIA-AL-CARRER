@@ -174,6 +174,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
 * CONCLUSIONS
 
-   ![image](https://github.com/user-attachments/assets/94303c43-4928-40a4-86e7-c81742ed2a45)
+   ![image](https://github.com/user-attachments/assets/c5543a15-b6c4-4140-91da-282f9215492d)
+
 
 
