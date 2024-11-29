@@ -1,26 +1,26 @@
 # PROJECTE DELINQÜÈNCIA AL CARRER
 
-PUNT DE PARTIDA DEL PROJECTE: Estudiar diverses variables que poden influir en la deliqüéncia al carrer a Catalunya. Contrastar amb dades si te fonament la percepció de part de la població, fomentada per alguns mitjans, de la relació entre la inseguretat ciutadana i l'arribada de menors no acompanyats.   
+PUNT DE PARTIDA DEL PROJECTE: Estudiar diverses variables que poden influir en la deliqüència al carrer a Catalunya. Contrastar amb dades si te fonament la percepció de part de la població, fomentada per alguns mitjans, de la relació entre la inseguretat ciutadana i l'arribada de menors no acompanyats.   
 
 
 OBJECTIUS: 
-* Realitzar l'anàlisis i les visualitzacions de les dades per tal de respondre les preguntes clau.
-* Analitzar la relació entre delinqüència als carrers i afluéncia de menors no acompanyats. Aprofundir en la delinqüència juvenil i la seva relació amb el menors no         
+* Realitzar l'anàlisi i les visualitzacions de les dades per tal de respondre les preguntes clau.
+* Analitzar la relació entre delinqüència als carrers i afluència de menors no acompanyats. Aprofundir en la delinqüència juvenil i la seva relació amb el menors no         
   acompanyats i la inseguretat als carrers. 
 * Buscar dades d'altres variables que puguin tenir relació amb la delinqüència als carres com ara l'afluència de turistes a Catalunya.
 
 
 PREGUNTES CLAU: 
-* Es certa relació entre menors no acompanyats i deliqüéncia als carrers? Que en diuen les dades?
+* Es certa relació entre menors no acompanyats i deliqüència als carrers? Que en diuen les dades?
 * Quina part del delictes al carrer els cometen joves estrangers?
-* Quina es la tendéncia dels últims anys en delinqüència als carrer i delinqüència juvenil? Guarden relació?
-* Quina es la relació entre turisme i deliqüéncia als carrers?
+* Quina es la tendència dels últims anys en delinqüència als carrer i delinqüència juvenil? Guarden relació?
+* Quina es la relació entre turisme i deliqüència als carrers?
 
 
 METODOLOGIA: Partint de dades públiques del portal de transparència de la Generalitat de Catalunya, de l'IDESCAT, del departament de justícia, de la conselleria de turisme i del departament de drets socials i inclusió, obtinc les bases de dades per formar el meu dataset. Examino i netejo les dades amb MySQL i Pyhton, per després realitzar el modelat i les visualitzacions amb PowerBi.
 
 El model no es un model normalitzat típic d'estrella ja que hi ha moltes taules de fets diferents i poques de dimensions. Creo una taula de dimensió temporal (data) i vinculo totes les taules de fets que tenen temporalitat a aquesta. També creo una de dimensió geogràfica (Catalunya Comarques) a la que vinculo les taules de fets amb referències geogràfiques.
-El model resultant es força atípic, amb moltes taules de fets sense conexió entre elles i dues de dimensions:
+El model resultant es força atípic, amb moltes taules de fets sense connexió entre elles i dues de dimensions:
 
 
 ![image](https://github.com/user-attachments/assets/2d0cdf8f-ff3c-400e-a31c-d850c447e810)
@@ -34,11 +34,11 @@ DADES:
   * https://analisi.transparenciacatalunya.cat/Seguretat/Fets-penals-coneguts-fets-coneguts-resolts-i-deten/qnyt-emjc/explore
 * Noves arribades d'infants i joves migrats
   * https://analisi.transparenciacatalunya.cat/Demografia/Noves-arribades-d-infants-i-joves-migrats-sols-a-C/pvrz-iijx/about_data
-* Per la visualització de mapes utilitzo el mapa de catalunya per comarques .json  publicat per Xavier Ginménez
+* Per la visualització de mapes utilitzo el mapa de Catalunya per comarques .json  publicat per Xavier Giménez
   * https://github.com/sirisacademic/catalonia-cartography/blob/master/shapefiles_catalunya_comarcas.topo.json
 * Població
   * https://www.idescat.cat/pub/?id=censph&n=16354&geo=prov:08 
-* Visitans estrangers
+* Visitants estrangers
   * https://www.idescat.cat/visor/?id=turest&dataset=1&tc=true&tm=factor_ind_factor&td=t.mes,terr.ccaa,mv.mv,tv.tv&tf=t.mes[202409]&cc=true&cm=factor_ind_factor&cd=t.mes,terr.ccaa,mv.mv,tv.tv&cf=t.mes[202409]&filters=temps_24050.202409&filters=territori_emtf_25077.09&rows=n4_emtf_dim_motiu_princ_viatg_25076&columns=n4_emtf_dim_codi_questionari_25072&filters=concept.factor_ind_factor
   * https://www.idescat.cat/indicadors/?id=aec&n=15518
      
@@ -51,17 +51,17 @@ PRIMERES OBSERVACIONS:
   ![image](https://github.com/user-attachments/assets/0b4297c0-cb32-42af-bafb-8df7d94999f7)
 
 
-En una primera aproximació a les dades comprovo que l'augment de la delinqüència al carrer (Furts, robatoris, delictes sexuals, alteració de l'ordre públic, etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justicia juvenil segueixin aquest patró.
+En una primera aproximació a les dades comprovo que l'augment de la delinqüència al carrer (Furts, robatoris, delictes sexuals, alteració de l'ordre públic, etc) te un patró estacional i guarda una estreta relació amb l'augment de visitants a l'estiu. Per contra no sembla que l'arribada de menors no acompanyats (que es manté estable cada any) ni l'evolució de la població de justícia juvenil segueixin aquest patró.
 
 
   ![image](https://github.com/user-attachments/assets/9d1b59ef-dbb6-4bf2-815d-62c58715494d)
 
 
-Implemento dos models de regressió lineal amb una visualització de gràfic de dispersió i comprobo estadísticament que delictes i arribades de menors no guarden relació, mentre que delictes i turistes sí.
+Implemento dos models de regressió lineal amb una visualització de gràfic de dispersió i comprovo estadísticament que delictes i arribades de menors no guarden relació, mentre que delictes i turistes sí.
 
-Amb aquest informació aprofundeixo en la recerca i en l'anàlisis de dades. 
+Amb aquest informació aprofundeixo en la recerca i en l'anàlisi de dades. 
 
-Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàgina de conclusions al final i un link a cada Dashboard per navegar-hi.
+Decideixo estructurar l'estudi en diferents dashboards comparant entre elles les dades de delinqüència al carrer, arribades de menors migrants, població de justícia juvenil i turisme, en clau temporal i geogràfica. Afegeixo una pàgina de conclusions al final i un link a cada Dashboard per navegar-hi.
 
 
 * DELICTES AL CARRER I ARRIBADES MENORS DE NO ACOMPANYATS
@@ -75,7 +75,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
   * En un gràfic de línies, amb series temporals, no s'aprecia una relació directa entre les dues variables.
     
   * Analitzo la composició del menors no acompanyats per sexe, país de procedència i lloc d'arribada a Catalunya.
-    Per fer aquesta útlima variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb provincies ni amb 
+    Per fer aquesta última variable només disposo de les regions dels serveis territorials. Aquestes no es corresponen exactament amb províncies ni amb 
     comarques. Tampoc disposo de major granularitat d'aquesta dada però decideixo, intentant mantenir cert rigor, obtenir les arribades per comarca:
     
       * Creo una taula amb MySQL amb les comarques i la importo al model a Power Bi.
@@ -101,7 +101,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
         ![image](https://github.com/user-attachments/assets/aeb2707d-fd19-48f8-9163-d5d83af38429)        
       
     
-* DELICTES AL CARRER I POBLACIÓ JUSTICIA JUVENIL
+* DELICTES AL CARRER I POBLACIÓ JUSTÍCIA JUVENIL
 
 
   ![image](https://github.com/user-attachments/assets/ce766c38-93c0-4b48-9fac-e13ce6d5ad5e)
@@ -109,31 +109,31 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
 
 
-  * Analitzo les tendéncies i la relació entre fets penals i la població de justicia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
-    *  S'observa que segueixen una mateixa tendéncia i que hi ha relació entre les dues.
+  * Analitzo les tendències i la relació entre fets penals i la població de justícia juvenil, la composició d'aquesta població i la proporció respecte els fets penals totals.
+    *  S'observa que segueixen una mateixa tendència i que hi ha relació entre les dues.
     *  Per posar context, analitzo la composició d'aquesta població i quina part dels fets penals totals son comesos per menors. Per fer-ho creo una columna 
        calculada on sumo als registres d'expedients anuals totals el nombre de reincidents amb expedients anteriors.
 
         ![image](https://github.com/user-attachments/assets/a7f40f23-ef02-4aa6-ac56-8c4b888035f5)
 
-    *  Faig una estimació de quin percentatge del total de delictes son comesos per menors estrangers (no necessariament menors migrants no acompanyats). A
-       la base de dades de justicia juvenil, no diposem del detall de quin tipus de delicte cometen els menors. Tampoc de quina edat tenen els que cometen 
+    *  Faig una estimació de quin percentatge del total de delictes son comesos per menors estrangers (no necessàriament menors migrants no acompanyats). A
+       la base de dades de justícia juvenil, no disposem del detall de quin tipus de delicte cometen els menors. Tampoc de quina edat tenen els que cometen 
        delictes a la base de dades de fets penals coneguts.
-       Per tant faig una estimació multiplicant el percentatge de delictes comesos per menors del total pel percentatge d'estrangers de la població de justicia juvenil.
+       Per tant faig una estimació multiplicant el percentatge de delictes comesos per menors del total pel percentatge d'estrangers de la població de justícia juvenil.
 
         ![image](https://github.com/user-attachments/assets/9c5961b6-c832-478e-a59d-0495a7142763)
 
        
 
-* POBLACIÓ JUSTICIA JUVENIL I ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
+* POBLACIÓ JUSTÍCIA JUVENIL I ARRIBADES DE MENORS MIGRANTS NO ACOMPANYATS (MENAS)
 
 
   ![image](https://github.com/user-attachments/assets/f6919307-6cbe-4176-9da8-db6d0c447c1f)
 
 
 
-  * Comparo l'evolució de la Població Justicia Juvenil amb les Arribades de Menors. No hi ha relació aparent.
-  * Comparo l'evolució de la Població Justicia Juvenil amb la de la població general de 14 a 21. Tampoc hi ha un relació clara.
+  * Comparo l'evolució de la Població Justícia Juvenil amb les Arribades de Menors. No hi ha relació aparent.
+  * Comparo l'evolució de la Població Justícia Juvenil amb la de la població general de 14 a 21. Tampoc hi ha un relació clara.
   * Comparo el percentatge de la població total amb edats entre 14 i 21 vs el percentatge de delictes comesos per joves de 14 a 21 respecte els totals.
     Per fer-ho creo aquesta mesura:
 
@@ -151,7 +151,7 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
 
 
 
- * Començo comparant la serie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
+ * Començo comparant la sèrie temporal de delictes vs la d'arribades de turistes. La relació es evident. El delictes tenen un comportament estacional igual al de les visites de turistes.
    
 * Per comparar la distribució geogràfica dels delictes i de visites de turistes no disposo de la distribució d'arribades de turistes per comarca. Així que les calculo, en una columna calculada, unint les dades de places turístiques de cada tipus disponibles per comarca i les taxes d'ocupació d'aquestes places per cada tipus del 2022.
 
@@ -166,9 +166,9 @@ Decidedixo estructurar l'estudi en diferentes dashboards comparant entre elles l
    ![image](https://github.com/user-attachments/assets/e5a12ea8-9782-4b96-aece-620e50ea5f72)
 
 * Ho aplico a la visualització de mapes amb la plantilla de comarques per poder comparar la distribució geogràfica de turisme i delictes al carrer.
-  S'aprecía coincidencia en les comarques costaneres i les capitals de provincia, terte de Lleida.
-  Filtrant la serie temporal per comarques, s'aprecia que les comarques on coincideixen alts index de delinqüència i visitants també hi ha una relació 
-  d'estacionalitat a la serie temporal.
+  S'aprecia coincidència en les comarques costaneres i les capitals de provincia, tret de Lleida.
+  Filtrant la sèrie temporal per comarques, s'aprecia que les comarques on coincideixen alts índex de delinqüència i visitants també hi ha una relació 
+  d'estacionalitat a la sèrie temporal.
 * Elaboro un gràfic de columnes de comarques ordenat per delinqüència on s'aprecia que la relació entre les dues variables.
 
 
