@@ -1,5 +1,7 @@
 # PROJECTE DELINQÜÈNCIA AL CARRER
 
+🔗Enllaç al [📊DASHBOARD INTERACTIU](https://app.powerbi.com/view?r=eyJrIjoiMDVhMDFjYTUtZWQ4Ny00MGJiLWFkZWMtZTdjODMyYmE1YWUyIiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9&pageName=198236f2c2947b7827ce)
+
 PUNT DE PARTIDA DEL PROJECTE: Estudiar diverses variables que poden influir en la deliqüència al carrer a Catalunya. Contrastar amb dades si te fonament la percepció de part de la població, fomentada per alguns mitjans, de la relació entre la inseguretat ciutadana i l'arribada de menors no acompanyats.   
 
 
