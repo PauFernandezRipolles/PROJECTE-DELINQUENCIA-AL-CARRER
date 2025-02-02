@@ -94,7 +94,7 @@ Decideixo estructurar l'estudi en diferents dashboards comparant entre elles les
         
         ![image](https://github.com/user-attachments/assets/2d57acce-0947-4575-96af-7f1555a7b569)
         
-      * Creo una columna calculada en DAX per distribuint les arribades a cada regió per comarques.
+      * Creo una columna calculada en DAX per distribuir les arribades a cada regió per comarques.
  
         ![image](https://github.com/user-attachments/assets/35ee060e-3e18-4f21-999a-949d0a6414d9)
         
